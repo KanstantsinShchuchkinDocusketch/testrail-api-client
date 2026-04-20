@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TestRailClient = void 0;
 var axios = require('axios');
-var axiosRetry = require('axios-retry');
+var axiosRetry = require('axios-retry').default;
 var FormData = require('form-data');
 var fs = require('fs');
 var https = require('https');
