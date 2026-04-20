@@ -44,7 +44,6 @@
     "tsc": "tsc",
     "clean": "rimraf dist",
     "build": "yarn run clean && yarn run tsc",
-    "prepare": "yarn run build",
     "precommit": "yarn version --patch",
     "test": "./node_modules/.bin/_mocha"
   }
