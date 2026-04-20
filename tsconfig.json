@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES5",
+    "ignoreDeprecations": "6.0",
+    "rootDir": "src",
+    "types": [
+      "node"
+    ],
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -10,8 +15,13 @@
     "noImplicitAny": false,
     "pretty": true,
     "outDir": "dist",
-    "typeRoots": ["node_modules/@types"],
-    "lib": [ "es2017", "dom" ]
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
   },
   "exclude": [
     "node_modules",
